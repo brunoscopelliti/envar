@@ -1,0 +1,35 @@
+{
+  "name": "@jscore/envar",
+  "version": "1.0.0",
+  "description": "Normalize environment variables, and just that.",
+  "author": "Bruno Scopelliti",
+  "main": "index.js",
+  "keywords": [
+    "env",
+    "env var",
+    "environment variable",
+    "env normalizer",
+    "environment variable normalizer",
+    "parser",
+    "env var parser"
+  ],
+  "scripts": {
+    "lint": "eslint ./index.js tests/*.js",
+    "test": "npm run lint && tap ./tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoscopelliti/envar.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunoscopelliti/envar/issues"
+  },
+  "homepage": "https://github.com/brunoscopelliti/envar#readme",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-bruno": "1.3.0",
+    "pre-commit": "1.2.2",
+    "tap": "12.0.1"
+  }
+}
