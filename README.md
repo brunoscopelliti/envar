@@ -4,7 +4,7 @@ Normalize environment variables, and just that.
 ## Install
 
 ```
-npm i -S @brunoscopelliti/envar
+npm i -S @jscore/envar
 ```
 
 ## Usage
